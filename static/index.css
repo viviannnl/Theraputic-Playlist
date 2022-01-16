@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+
+}
+
+.top{
+   width:100%;
+   background-image: linear-gradient(#e66465, #9198e5);
+
+}
+
+
+.nav ul li{
+    float:left;/*左浮动，让列表项变为横排*/
+    list-style-type:none;/*设置列表的格式。也就是把列表前面的点或者其他样式隐藏*/
+}
+
+
+.home {
+    height: 100%;
+    overflow: hidden;
+}
+
+.content {
+    perspective: 340px;
+    width: 100%;
+    position: relative;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+.title {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    top: 300px;
+    margin: auto;
+    bottom: 0;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.secondtitle {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    top: 400px;
+    margin: auto;
+    color: white;
+    font-size: 20px;
+    text-shadow: h-shadow；
+}
+
+.choosesong {
+    margin-bottom: 40px;
+    font-size:30px;
+}
+
+.introduce_item {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.choosesong_img {
+    width: 350px;
+    height: 500px;
+    margin-bottom: 30px;
+}
+
+#songname{
+    width:200px;
+    height:70px;
+    margin-top:230px;
+}
+
+.question {
+    width: 450px;
+    font-size: 30px;
+    line-height: 40px;
+    align-self: center;
+    padding-left: 100px;
+}
+
+.button {
+	width: 250px;
+	height: 50px;
+	background: #FAA27D;
+	cursor: pointer;
+	color: white;
+	font-size: 20px;
+}
+
+.button:hover {
+	background: #FD7372;
+}
+
+.buttons{
+    text-align: center;
+}
+
+
+
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Music Heals You - Log-in</title>
+    <link rel="stylesheet" href="/static/index.css">
+</head>
+<body class="text-center", background="/static/guitars-g1c8d61001_1920.jpg">
+    <div class="container">
+        <form method="POST" class="form-register" style="color:white">
+
+            <h1 class="h3 mb-3 font-weight-normal">
+                Please Create your Account
+            </h1>
+            <br>
+            {{ form.username.label() }}
+            {{ form.username(class="form-control", placeholder="User Name") }}
+
+
+
+            {{ form.password1.label() }}
+            {{ form.password1(class="form-control", placeholder="Password") }}
+
+
+
+            <br>
+
+            {{ form.submit(class="btn btn-lg btn-block btn-primary") }}
+
+        </form>
+    </div>
+</body>
+    <style>
+      body {
+      background-color: powderblue;
+      }
+    </style>
+
+</html>
